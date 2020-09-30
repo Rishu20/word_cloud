@@ -25,8 +25,8 @@ If you are in the business-to-consumer writing industry, a word cloud will highl
 
 
 ## Dependencies 
- Wordcloud module <br>
-``` pip install wordcloud ``` <br>
-Matplotlib (for visualisation) <br>
-``` pip install matplotlib ``` <br>
+ Wordcloud module <br><br>
+``` pip install wordcloud ``` <br> <br>
+Matplotlib (for visualisation) <br><br>
+``` pip install matplotlib ``` <br><br> <br>
 Use this [Link](https://rishu20.pythonanywhere.com/cloud) to see app in action
