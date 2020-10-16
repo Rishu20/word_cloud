@@ -1,8 +1,7 @@
-import os
-import wordcloud
 import matplotlib.pyplot as plt
-file1 = "file.txt"
-file2 = "temp.txt"
+import wordcloud
+file1 = "/home/rishu/Programming/Programmings/zz_images_files/file.txt"
+file2 = "/home/rishu/Programming/Programmings/zz_images_files/temp.txt"
 punctuations = ['!', '"', '#', "\n" , '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=','>', '?', '@', '[', ']', '^', '_', '`', '{', '|', '}', '~', "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 uninteresting_words = ["the", "mr", "mrs", "for", "us", "a", "so", "to", "if", "is", "not", "on", "it", "of", "and", "or", "an", "as", "in", "i", "me", "my",
                        "we", "our", "ours", "you", "your", "yours", "he", "she", "him", "his", "her", "hers", "its", "they", "them",
@@ -35,9 +34,11 @@ for word in temp_file:
 #with open(file3, "w") as file3:
 #    file3.write(str(frequencies))
 
-cloud = wordcloud.WordCloud(width=800,height=600)
+cloud = wordcloud.WordCloud(background_color="white",width=1200,height=720)
 cloud.generate_from_frequencies(frequencies)
 
-
 # Display your wordcloud image
-cloud.to_file("MYcloud.png")
+cloud.to_file("/home/rishu/Programming/Programmings/zz_images_files/word.png")
+plt.imshow(cloud, interpolation='bilinear')
+plt.axis("off")
+plt.show()
