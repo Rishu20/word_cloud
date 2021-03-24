@@ -6,7 +6,7 @@ body {
     background-blend-mode: overlay;
   }
   b{
-    color: gold;
+    color: limegreen;
   }
   /* section styling */
   .backgr {
@@ -34,12 +34,14 @@ body {
     line-height: 1.5;
     width: 100%;
       height: auto;
-  }
-  .btn-align{
-    display: flex;
-    width: 100%;
-    margin-left: 38%;
-  }
+    }
+    .btn-align{
+      display: flex;
+      justify-content: center;
+      position: relative;
+      width: 100%;
+      margin-right: 20px;
+    }
   /* buttons styling */
   
   .btn {
@@ -69,26 +71,27 @@ body {
   }
   
   .third {
-    border-color: gold;
-    color: black;
-    text-shadow: 0.5px 0.3px #000;
-    background: gold;
+    border-color: green;
+    color: aliceblue;
+    background-image: linear-gradient(to right, green, rgb(1, 45, 1));
     transition: all 150ms ease-in-out;
   }
   .third:hover {
     background: none;
+    color: lime;
   }
   
   .fourth {
-    border-color: #f1c40f;
+    border-color: green;
     color: #fff;
     background-position: 100%;
     background-size: 400%;
     transition: 100ms ease-in-out;
   }
   .fourth:hover {
-    background: gold;
-    color: black;
+    border-color: green;
+    background-image: linear-gradient(to right, green, rgb(1, 45, 1));
+    color: white;
     background-position: 0;
   }
   
