@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0,minimum-scale=1, maximum-scale=1" />
+
+    <title>Rishu20</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" id="theme-link">
+    <link rel="shortcut icon" href="./assets/images/rey-removebg-preview.png" />
+    <script src="https://kit.fontawesome.com/bb8ae9b273.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <section class="section">
+        <!--navigation------------------------->
+        <nav id='navbar'>
+            <!--logo-->
+            <div onclick="window.open('https://www.sushantrishav.live/#','_self')" class="logo" alt='home' title="Home">RI<b>.</b>SHU<b>20</b></div>
+            <!--menu-->
+            <ul>
+                <li><a href="https://www.sushantrishav.live/#about" onclick="toggle_close()">About</a></li>
+                <li><a href="https://www.sushantrishav.live/#project" onclick="toggle_close()">Project</a></li>
+                <li><a href="https://www.sushantrishav.live/#contact" onclick="toggle_close()">Contact</a></li>
+                <li><a href="https://www.sushantrishav.live/gallery" onclick="toggle_close()">Gallery</a></li>
+                <li><a href="https://www.sushantrishav.live/resume" onclick="toggle_close()">Resume</a></li>
+                <span></span>
+
+            </ul>
+            <!--bars--------------->
+            <div class="toggle"></div>
+        </nav>
+    </section>
+
+    <div class="about-container" id="about">
+        <!--img-->
+        <img src="./assets/images/Screenshot 2020-09-20 005714.png" />
+        <!--about-me-text-->
+        <div class="about-text">
+            <p>Word_Cloud</p>
+            <p>Word Cloud is a data visualization technique used for representing textfile's data,
+                in which the size of each word indicates its frequency or importance.
+                Significant textual data points can be highlighted using a word cloud.
+                Word clouds are widely used for analyzing data from social network websites
+                Use this Link to see app in action
+            </p>
+            <div class="about-btn">
+                <button onclick="window.open('https://github.com/Rishu20/word_cloud','target blank')">
+                    <i class="fab fa-wikipedia-w"></i>&nbsp; Read More
+                </button>
+                <button onclick="window.open('https://rishu20.pythonanywhere.com/cloud','target blank')">
+                    <i class="fas fa-download"></i>&nbsp;View App
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--footer--------------->
+    <footer>
+        <span>Created By <a href="https://www.sushantrishav.live/" target='_black'>Shushant Rishav</a> | <span
+                class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+    <!--social-attach-bar-->
+    <div class="social">
+
+        <div onclick="window.open('https://github.com/Rishu20','target blank')"><i class="fab fa-github"></i></div>
+        <div onclick="window.open('https://twitter.com/rishavshushant','target blank')"><i class="fab fa-twitter"></i>
+        </div>
+        <div class="btn btn-toggle" onclick="imagefun()"><i class="fas fa-moon btn-toggle"></i></div>
+        <div onclick="window.open('mailto:sushantrishav90@gmail.com')" title="mail"><i class="fas fa-envelope"></i>
+        </div>
+        <div onclick="window.open('https://www.linkedin.com/in/shushantrishav/','target blank',)"><i
+                class="fab fa-linkedin"></i></div>
+    </div>
+
+    
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
